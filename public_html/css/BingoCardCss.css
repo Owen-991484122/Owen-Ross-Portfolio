@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2019, 3:38:19 PM
+    Author     : oicr1
+*/
+
+.menu {
+    display: inline-block;
+    background-color: #9ea0a3;
+    height: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.position {
+    margin: auto 0px auto 0px;
+    text-align: center;
+}
+
+#bingo {
+    display: grid;
+   grid-template-columns: 75px 75px 75px 75px 75px;
+   grid-template-rows: 75px 75px 75px 75px 75px;
+   margin: auto;
+   width: 25%;
+   margin-top: 25px;
+}
+
+footer {
+    background-color: #d0d3d8;
+    width: 100%;
+    color: #6c6e70;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #6c6e70; 
+}
+
+header {
+    background-color: #d0d3d8;
+    width: 100%;
+    height: 150px;
+}
+
+h2 {
+    color: #6c6e70;
+}
+
+.firstRow {
+    background-color: #42adf4;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+.secondRow {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+.thirdRow {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+
+.fourthRow {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+
+.fifthRow {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+.sixthRow {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+#margin1 {
+    margin-top: 30px;
+}
+
+#margin2 {
+    margin-top: 25px;
+}
+
+#free {
+    background-color: black;
+    color: white;
+}
+
+body {
+     margin: 0 auto;
+}
+
+@media screen and (max-width: 376px) {
+    
+    footer{
+        font-size: 12px;
+    }
+    
+    .firstRow {
+    background-color: #42adf4;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.secondRow {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.thirdRow {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+
+.fourthRow {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+
+.fifthRow {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.sixthRow {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+  #bingo {
+   display: grid;
+   grid-template-columns: 50px 50px 50px 50px 50px;
+   grid-template-rows: 50px 50px 50px 50px 50px;
+   margin: auto;
+   width: 100%;
+   margin-top: 25px;
+}
+
+    .menu {
+     display: inline-block;
+    background-color: #9ea0a3;
+    height: 20px;
+    color: white;
+    padding: 4px;
+    width: 16.5%;
+    font-size: 10.5px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+}

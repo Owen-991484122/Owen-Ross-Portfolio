@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <!-- Importing the external css file-->
+        <link rel="stylesheet" href="css/TicTacToeCss.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head> 
+
+<!-- game board -->
+<body>
+    
+     <header>
+            <h1 class="position">Assignment 4</h1>
+            <h2 class="position">Tic Tac Toe</h2>
+             
+            <!-- This is the menu which the user will use to navigate the website-->
+            <nav class="position" id="margin1">
+                <a href="index.html"><div class="menu">Home</div></a>
+                <a href="CasinoCraps.html"><div class="menu">Casino Craps</div></a>
+                <a href="TicTacToe.html"><div class="menu">Tic Tac Toe</div></a>
+                <a href="BingoCard.html"><div class="menu">Bingo</div></a>
+                <a href="Concentration.html"><div class="menu">Concentration</div></a>
+            </nav>
+        </header>
+    
+    <!-- This is the Tic-Tac-Toe grid-->
+    <table>
+  <tr>
+      <td>0</td>
+      <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+      <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+</table>
+
+<!-- play information and controls -->
+<p>Player <span id="player">X</span> Go!
+  <button id="reset">Reset Game</button>
+</p>
+
+<!-- footer -->
+<footer><p>ROSSOW, SYST10199 Web Programming @ Sheridan College</p>
+</footer>
+
+<!-- hidden elements used for displaying results -->
+<div id="message">
+  <p>GAME OVER!</p>
+    <h3 id="winner"></h3>
+  <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+</div>
+<div id="overlay"></div>
+
+<script type="text/javascript" src="JavaScript/MainJS.js"></script>
+</body>
+</html>

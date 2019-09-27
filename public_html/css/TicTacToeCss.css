@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 2, 2019, 7:14:16 PM
+    Author     : oicr1
+*/
+
+/*
+ * main.css
+ * Tic Tac Toe styles, January 2017
+ * Owen Ross
+ */
+
+/* same as version 1 */
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* formatting for game board table */
+table {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+td {
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+
+/* these four turn off outer borders */
+tr:first-child td {
+    border-top: none;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+td:last-child {
+    border-right: none;
+}
+
+/* the message box that appears with game results, hidden by default */
+#message {
+    background-color: #f9ecf2;
+    border: 1px solid #660066;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black, -1px -1px 5px white;
+    display: none;
+    font-weight: bold;
+    height: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    width: 80%;
+    z-index: 200;
+}
+
+/* covers the entire page in a semi-transparent grey, hidden by default */
+#overlay {
+    background-color: rgba(20, 20, 20, 0.4);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu {
+    display: inline-block;
+    background-color: #9ea0a3;
+    height: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.position {
+    margin: auto 0px auto 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #d0d3d8;
+    width: 100%;
+    color: #6c6e70;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #6c6e70; 
+}
+
+header {
+    background-color: #d0d3d8;
+    width: 100%;
+    height: 150px;
+}
+
+h2 {
+    color: #6c6e70;
+}
+
+#margin1 {
+    margin-top: 30px;
+}
+
+body {
+     margin: 0 auto;
+}
+
+@media screen and (max-width: 376px) {
+    
+    footer{
+        font-size: 12px;
+    }
+    
+        .menu {
+     display: inline-block;
+    background-color: #9ea0a3;
+    height: 20px;
+    color: white;
+    padding: 4px;
+    width: 16.5%;
+    font-size: 7pt;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+}
